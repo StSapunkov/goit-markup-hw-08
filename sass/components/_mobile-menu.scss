@@ -1,0 +1,120 @@
+.mobile-menu-kontent{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+}
+
+.mobile-menu-kontent.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.mobile-menu-close-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.mobile-list__menu-items{
+    margin-bottom: 35px;
+
+    &:last-child {
+            margin-bottom: 0;
+        }
+}
+
+
+.mobile-list__studio, 
+.mobile-list__portfolio, 
+.mobile-list__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+    list-style: none;
+        
+}
+
+.mobile-list__studio:hover,
+.mobile-list__studio:focus{
+    color: var(--accent-color);
+}
+
+.mobile-list__kontakt-phone{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.mobile-list__kontakt-email{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+}
+
+.mobile-list-socials__mobile-list__items{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+    transform: rotate(90deg);
+    
+}
+
+.mobile-list-socials{
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 48px;
+}
+
+.mobile-list-socials__mobile-list{
+    display: flex;
+}
+
+.mobile-list-kontainer{
+    display: inline-block;
+    margin-top: 48px;
+    margin-left: 40px;
+    margin-bottom: 302px;
+    
+}
+
+.mobile-konteiner-kontakt{
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 64px;
+}
+
+.mobile-list__kontakts{
+    
+    margin-bottom: 32px;
+}
+

@@ -1,0 +1,215 @@
+.footer-logo-social__logo-footer {
+    display: flex;
+
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.footer-logo-social__logo-lab-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-logo-social__link-item-footer {
+    transition: color var(--transition-anime);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    margin-top: 9px;
+
+}
+
+.footer-logo-social {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.footer-logo-social__content {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.footer-logo-social__items-footer {
+
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.footer-logo-social__link-footer {
+    margin-bottom: 9px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.social-footer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+   
+}
+
+.social-footer__motivation {
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.social-footer__social-items-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: #FFFFFF;
+    background: rgba(255, 255, 255, 0.1);
+
+    transition: background-color var(--transition-anime);
+
+    &:hover,
+    &:focus {
+    
+            background-color: var(--accent-color);
+    }
+}
+
+
+.social-footer__social-footer-items {
+    display: flex;
+
+    gap: 10px;
+
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 570px;
+    height: 86px;
+    
+}
+
+.footer-email-form__form-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer-email-form__form-email-dscr {
+    display: flex;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.footer-email-form__text-email {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer-email-form__form-email-input {
+    box-sizing: border-box;
+    width: 358px;
+    height: 100%;
+    padding-left: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: #2F303A;
+    color: #FFFFFF;
+
+}
+
+.footer-email-form__form-email-button {
+    display: flex;
+    min-width: 200px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 29px;
+    
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    border-color: transparent;
+
+    transition: background-color var(--transition-anime);
+
+    &:hover,
+    &:focus {
+            background-color: #188CE8;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+    
+    }
+}
+
+
+
+.footer-email-form__button-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.footer-email-form__icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}

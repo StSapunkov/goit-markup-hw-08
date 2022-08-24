@@ -1,0 +1,42 @@
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.staff-container {
+    background-color: #F5F4FA;
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

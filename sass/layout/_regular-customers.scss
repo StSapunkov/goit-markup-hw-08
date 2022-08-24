@@ -1,0 +1,43 @@
+.items-company {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.list-company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 170px;
+    max-height: 92px;
+
+    border-radius: 4px;
+    color: #AFB1B8;
+}
+
+.client-link {
+    display: flex;
+    max-width: 170px;
+    max-height: 92px;
+
+    border: 1px solid var(--text-color);
+    border-radius: 4px;
+    fill: #AFB1B8;
+    transition: fill var(--transition-anime), border var(--transition-anime);
+
+    &:hover,
+    &:focus {
+    
+            fill: var(--accent-color);
+            border: 1px solid var(--accent-color);
+    }
+
+}
+
+.companies {
+    color: #AFB1B8;
+
+    margin-top: 16px;
+}
