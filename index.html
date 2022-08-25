@@ -72,8 +72,8 @@
           
           </div>
 
-            <div class="mobile-menu-kontent is-hidden" data-menu>
-              <button class="mobile-menu-close-btn" data-menu-close>
+            <div class="mobile-menu-kontent" data-menu>
+              <button type="button" class="mobile-menu-close-btn" data-menu-close>
                 <svg class="mobile-menu-close-icon" width="40" height="40">
                   <use href="./images/symbol-defs.svg#icon-modal-close"></use>
                 </svg>
@@ -229,7 +229,7 @@
                 <li class="staff-border-box">
                   <picture>
                     <source 
-                      srcset= "./images/igordemyanenko.jpg"
+                      srcset= "./images/igordemyanenko.jpg 1x, ./images/deskpot/demianenko.jpg 2x"
                       media="(min-width:1200px)"
                     />
                     <source
@@ -238,7 +238,7 @@
                     />
                     <source
                     srcset="./images/mobile/demianenko-mobile.jpg 1x, ./images/mobile/demianenko-mobile@2x.jpg 2x"
-                    media="(min-width:320px)"/>
+                    media="(min-width:480px)"/>
                     <img src="./images/igordemyanenko.jpg" alt="Игорь Демьяненко" width="270" height="260">
                   </picture>
                  <div class="staff-box">
@@ -278,7 +278,15 @@
                 </li> 
 
                <li class="staff-border-box">
-                 <img src="./images/olgarepina.jpg" alt="Ольга Репина" width="270" height="260">
+                <picture>
+                  <source srcset="./images/olgarepina.jpg 1x, ./images/deskpot/repina.jpg 2x"
+                  media="(min-width:1200px)"/>
+                  <source srcset="./images/tablet/repina-tablet.jpg 1x, ./images/tablet/repina-tablet@2x.jpg 2x"
+                  media="(min-width:768px)"/>
+                  <source srcset="./images/mobile/repina-mobile.jpg 1x, ./images/mobile/repina-mobile@2x.jpg 2x"
+                  media="(min-width:468px)"/>
+                  <img src="./images/olgarepina.jpg" alt="Ольга Репина" width="270" height="260">
+                </picture>
                 <div class="staff-box">
                  <h3 class="staff-name">Ольга Репина</h3>
                  <p lang="en" class="staff-position">Frontend Developer</p>
@@ -316,7 +324,15 @@
                </li>
 
                <li class="staff-border-box">
-                 <img src="./images/nikolaitarasov.jpg" alt="Николай Тарасов" width="270" height="260">
+                <picture>
+                  <source srcset="./images/nikolaitarasov.jpg 1x, ./images/deskpot/tarasov.jpg 2x" 
+                   media="(min-width:1200px)" />
+                  <source srcset="./images/tablet/tarasov-tablet.jpg 1x, ./images/tablet/tarasov-tablet@2x.jpg 2x"
+                    media="(min-width:768px)" />
+                  <source srcset="./images/mobile/tarasov-mobile.jpg 1x, ./images/mobile/tarasov-mobile@2x.jpg 2x"
+                    media="(min-width:468px)" />
+                    <img src="./images/nikolaitarasov.jpg" alt="Николай Тарасов" width="270" height="260">
+                </picture>          
                 <div class="staff-box">
                  <h3 class="staff-name">Николай Тарасов</h3>
                  <p lang="en" class="staff-position">Marketing</p>
@@ -354,18 +370,26 @@
                 </li> 
 
                 <li class="staff-border-box">
-                 <img src="./images/mikhailermakov.jpg" alt="Михаил Ермаков" width="270" height="260">
-                <div class="staff-box">
-                 <h3 class="staff-name">Михаил Ермаков</h3>
-                 <p lang="en" class="staff-position">UI Designer</p>
-                <ul class="staff-social">
-                  <li class="social-list">
-                    <a href="" class="social-items-link">
-                      <svg width="20px" height="20px">
-                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
+                  <picture>
+                    <source srcset="./images/mikhailermakov.jpg 1x, ./images/deskpot/ermakov.jpg 2x" 
+                    media="(min-width:1200px)" />
+                    <source srcset="./images/tablet/ermakov-tablet.jpg 1x, ./images/tablet/ermakov-tablet@2x.jpg 2x"
+                      media="(min-width:768px)" />
+                    <source srcset="./images/mobile/ermakov-mobile.jpg 1x, ./images/mobile/ermakov-mobile@2x.jpg 2x"
+                      media="(min-width:468px)" />
+                      <img src="./images/mikhailermakov.jpg" alt="Михаил Ермаков" width="270" height="260">
+                  </picture>
+                  <div class="staff-box">
+                   <h3 class="staff-name">Михаил Ермаков</h3>
+                    <p lang="en" class="staff-position">UI Designer</p>
+                   <ul class="staff-social">
+                    <li class="social-list">
+                     <a href="" class="social-items-link">
+                       <svg width="20px" height="20px">
+                         <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                       </svg>
+                     </a>
+                   </li>
                   <li class="social-list">
                     <a href="" class="social-items-link">
                       <svg width="20px" height="20px">
