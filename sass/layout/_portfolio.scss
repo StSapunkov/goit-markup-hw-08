@@ -31,14 +31,29 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-
-    width: 326px;
+    
+    width: auto;
     gap: 8px;
     margin-bottom: 40px;
     list-style: none;
 
 }
 
+@media screen and(min-width:768px) {
+    .buttons-container__items-buttons{
+        justify-content: center;
+
+    }
+    
+}
+
+@media screen and (max-width:767px) {
+    .buttons-container__items-buttons{
+        width: 326px;
+        
+    }
+    
+}
 
 
 .items-portfolio {
@@ -50,6 +65,13 @@
     margin-left: auto;
 
     list-style: none;
+}
+
+@media screen and (min-width:768px) {
+    .items-portfolio{
+        justify-content: flex-start;
+    }
+    
 }
 
 .items-portfolio__cards {
@@ -119,8 +141,7 @@
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--text-color);
-    letter-spacing: 0.03em;
-
+    
 }
 
 .work-container {

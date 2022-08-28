@@ -72,6 +72,20 @@
    
 }
 
+@media screen and (min-width:768px) {
+    .social-footer{
+        margin-left: 164px;
+    }
+    
+}
+
+@media screen and(min-width:1200px) {
+    .social-footer{
+        margin-left: 70px;
+    }
+    
+}
+
 .social-footer__motivation {
     text-align: center;
     font-family: 'Roboto';
@@ -130,10 +144,26 @@
 
 }
 
+@media screen and(min-width:1200px){
+    .footer-email-form__form-email{
+        flex-direction: row;
+        align-items: flex-start;
+
+    }
+    
+}
+
 .footer-email-form__form-email-dscr {
     display: flex;
     height: 50px;
     margin-bottom: 20px;
+}
+
+@media screen and(min-width:1200px){
+    .footer-email-form__form-email-dscr{
+        margin-left: 93px;
+    }
+
 }
 
 .footer-email-form__text-email {
@@ -190,6 +220,13 @@
             border-radius: 4px;
     
     }
+}
+
+@media screen and(min-width:1200PX) {
+    .footer-email-form__form-email-button{
+        margin-left: 12px;
+    }
+    
 }
 
 

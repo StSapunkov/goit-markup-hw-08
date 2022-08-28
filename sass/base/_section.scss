@@ -4,9 +4,11 @@
     padding-right: 15px;
 }
 
-
-.section-wokr{
-    display: none;
+@media screen and(max-width:1199px) {
+    .section-wokr {
+            display: none;
+    }
+    
 }
 
 .section-staff{
@@ -17,6 +19,14 @@
     background: #F5F4FA;
 }
 
+@media screen and(min-width:1200px) {
+    .section-staff{
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    
+}
+
 .footer{
     height: 603px;
     width: 100%;
@@ -24,6 +34,14 @@
     padding-right: 15px;
 
     background: #2F303A;
+}
+
+@media screen and(min-width:1200px) {
+    .footer{
+        height: 252px;
+
+    }
+    
 }
 
 
