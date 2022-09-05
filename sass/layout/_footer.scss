@@ -129,9 +129,14 @@
 
 .footer-email-form {
     text-align: center;
-    // display: flex;
-    // flex-direction: column;
         
+}
+
+@media screen and(min-width:1200px) {
+    .footer-email-form{
+        display: flex;
+    }
+    
 }
 
 // .footer-email-form__form-email {
@@ -141,14 +146,14 @@
 
 // }
 
-@media screen and(min-width:1200px){
-    .footer-email-form__form-email{
-        flex-direction: row;
-        align-items: flex-start;
+// @media screen and(min-width:1200px){
+//     .footer-email-form__form-email{
+//         flex-direction: row;
+//         align-items: flex-start;
 
-    }
+//     }
     
-}
+// }
 
 .footer-email-form__form-email-dscr {
     
@@ -158,8 +163,6 @@
 
 
 .footer-email-form__text-email {
-    // display: flex;
-    // align-self: center;
 
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -186,7 +189,7 @@
 }
 
 .footer-email-form__form-email-button {
-    // display: flex;
+  
     min-width: 200px;
     height: 50px;
     padding-top: 10px;

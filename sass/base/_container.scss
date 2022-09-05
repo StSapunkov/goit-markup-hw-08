@@ -44,6 +44,15 @@
     
 }
 
+@media screen and (min-width:1200px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+}
+
 .mobile-list-kontainer {
     display: flex;
     flex-direction: column;
