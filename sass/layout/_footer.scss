@@ -66,15 +66,14 @@
 }
 
 .social-footer {
-    // display: flex;
-    // flex-direction: column;
+
     margin-bottom: 60px;
    
 }
 
 @media screen and (min-width:768px) {
     .social-footer{
-        margin-left: 164px;
+        margin-left: 165px;
     }
     
 }
@@ -98,9 +97,9 @@
 }
 
 .social-footer__social-items-footer {
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     width: 44px;
     height: 44px;
