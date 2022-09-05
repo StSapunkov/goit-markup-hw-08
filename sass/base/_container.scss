@@ -5,73 +5,6 @@
     
 }
 
-.container-benefit{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-@media screen and(min-width:1200px) {
-    .container-benefit {
-        padding-top: 94px;
-        padding-bottom: 94px;
-    }
-    
-}
-
-.container-staff{
-    display: flex;
-    flex-direction: column;
-
-    padding-top: 60px;
-    padding-bottom: 60px;
-    
-}
-
-.section-company{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-@media screen and(min-width:1200px){
-    .section-company{
-        padding-top: 94px;
-        padding-bottom: 94px;
-
-    }
-
-}
-
-.footer-logo {
-    display: flex;
-    
-    align-items: flex-start;
-
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 60px;
-
-}
-
-@media screen and  (max-width:480px) {
-    .footer-logo{
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media screen and (min-width:768px) {
-    .footer-logo{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-}
-
-.buttons-container{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
 @media screen and (min-width:480px) {
     .page-header-container {
         width: 450px;
@@ -79,13 +12,13 @@
         margin-right: auto;
 
     }
-    
+
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {
     .page-header-container {
         width: 768px;
-            
+
     }
 }
 
@@ -96,14 +29,39 @@
     }
 }
 
+.container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.mobile-list-kontainer {
+    display: flex;
+    flex-direction: column;
 
 
+}
 
+// .footer-logo {
+//     // display: flex;
+    
+//     // align-items: flex-start;
+//     text-align: center;
 
+//     margin-left: auto;
+//     margin-right: auto;
+//     padding-top: 60px;
+//     padding-bottom: 60px;
 
+// }
 
-
-
+// @media screen and (min-width:768px) {
+//     .footer-logo{
+//         flex-wrap: wrap;
+//         justify-content: center;
+//     }
+    
+// }
 // .container {
 //     display: flex;
 //     flex-wrap: wrap;

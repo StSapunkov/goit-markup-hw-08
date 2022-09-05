@@ -17,8 +17,7 @@
         rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/main.min.css">
-    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
-</head>
+    </head>
 <body>
         <!-- шапка header-->
         <header class="page-header"> 
@@ -72,12 +71,14 @@
           
           </div>
 
-            <div class="mobile-menu-kontent" data-menu>
+                    
+          <div class="mobile-menu-kontent" data-menu>
               <button type="button" class="mobile-menu-close-btn" data-menu-close>
                 <svg class="mobile-menu-close-icon" width="40" height="40">
                   <use href="./images/symbol-defs.svg#icon-modal-close"></use>
                 </svg>
               </button>
+            <div class="mobile-section">
               <div class="mobile-list-kontainer">
                 <ul class="mobile-list">
                   <li class="mobile-list__menu-items">
@@ -90,48 +91,47 @@
                     <a href="#" class="mobile-list__link">Контакти</a>
                   </li>
                 </ul>
-              </div>
-                
-              <div class="mobile-konteiner-kontakt">
+
                 <ul class="mobile-list">
                   <li class="mobile-list__kontakts">
                     <a href="tel:+380961111111" class="mobile-list__kontakt-phone">
-                       +38 096 111 11 11
+                      +38 096 111 11 11
                     </a>
-                 </li>
-                   <li class="mobile-list__kontakts">
-                     <a href="mailto:info@devstudio.com" class="mobile-list__kontakt-email" lang="en">
-                        info@devstudio.com
-                     </a>
-                   </li>
+                  </li>
+                  <li class="mobile-list__kontakts">
+                    <a href="mailto:info@devstudio.com" class="mobile-list__kontakt-email" lang="en">
+                      info@devstudio.com
+                    </a>
+                  </li>
                 </ul>
 
-              </div>
-                <div class="mobile-list-socials">
-                  <ul class="mobile-list-socials__mobile-list">
-                    <li><a href="#" class="mobile-list-socials__mobile-list__items">Instagram</a></li>
-                    <li><a href="#" class="mobile-list-socials__mobile-list__items">Twitter</a></li>
-                    <li><a href="#" class="mobile-list-socials__mobile-list__items">Facebook</a></li>
-                    <li><a href="#" class="mobile-list-socials__mobile-list__items">LinkedIn</a></li>
-                  </ul>
-
-                </div>
-                
-             </div>
+                <ul class="mobile-list-socials__mobile-list">
+                  <li><a href="#" class="mobile-list-socials__mobile-list__items">Instagram</a></li>
+                  <li><a href="#" class="mobile-list-socials__mobile-list__items">Twitter</a></li>
+                  <li><a href="#" class="mobile-list-socials__mobile-list__items">Facebook</a></li>
+                  <li><a href="#" class="mobile-list-socials__mobile-list__items">LinkedIn</a></li>
+                </ul>
+              </div>  
+                           
+            </div>
+          </div>
+          
         </header>
     
     <main>  
         <!-- головна фраза main phrase-->
-       <section class="section">
-        <div class="main-container">  
-         <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
-         <button type="button" class="button" data-modal-open>Замовити послугу</button>
-        </div>
+        <section class="section">
+          
+            <div class="main-container container">
+              <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
+              <button type="button" class="button" data-modal-open>Замовити послугу</button>
+            </div>
+
         </section>
 
         <!--переваги benefits-->
         <section class="section">
-          <div class="container-benefit">
+          <div class="container">
             
             <ul class="items">
                 <li class="list-item">
@@ -181,7 +181,7 @@
         <!--чим займаэмося what are we doing-->
         <section class="section-wokr">  
           
-          <div class="container-work">
+          <div class="container">
            <h2 class="dsr">Чим ми займаємося</h2> 
            <ul class="items-work">
               <li class="work-list">
@@ -223,7 +223,7 @@
 
         <!--персонал staff-->
         <section class="section-staff">   
-          <div class="container-staff">
+          <div class="container">
             <h2 class="dsr">Наша команда</h2>
              <ul class="items-staff">
                 <li class="staff-border-box">
@@ -421,7 +421,7 @@
 
         <!-- постоянные клиенты regular customers-->
         <section class="section">
-          <div class="section-company">
+          <div class="container">
             <h2 class="dsr">Постійні клієнти</h2>
              <ul class="items-company">
 
@@ -477,7 +477,7 @@
         <!--Footer-->
 
     <footer class="footer">
-      <div class="footer-logo">
+      <div class="container">
         <div class="footer-logo-social">
           <a href="./index.html" lang="en" class="footer-logo-social__logo-footer">
             <span class="footer-logo-social__logo-lab">Web</span>
