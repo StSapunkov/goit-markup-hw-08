@@ -32,7 +32,8 @@
 .mobile-menu-close-btn{
     position: absolute;
     top: 10px;
-    right: 45px;
+    right: 15px;
+    padding: 0;
 
     height: 40px; 
     background-color: transparent;
@@ -48,12 +49,14 @@
 .mobile-list{
     display: flex;
     flex-direction:column;
+
+    margin-top: 306px;
 }
 
 
 
 .mobile-list__menu-items{
-    margin-bottom: 35px;
+    margin-bottom: 32px;
 
     &:last-child {
             margin-bottom: 0;
@@ -131,8 +134,13 @@
 
 .mobile-list-socials__mobile-list{
     display: flex;
+    margin-top: 64px;
 }
 
 .mobile-list__kontakts {
     margin-bottom: 32px;
+}
+
+.mobile-list__kontakts:last-child{
+    margin-bottom: 0;
 }

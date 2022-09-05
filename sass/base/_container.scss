@@ -35,6 +35,16 @@
 
 }
 
+@media screen and (min-width:768px) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
 .mobile-list-kontainer {
     display: flex;
     flex-direction: column;
