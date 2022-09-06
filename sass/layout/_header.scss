@@ -235,7 +235,7 @@
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
     .items-header {
         display: none;
     }
@@ -250,7 +250,15 @@
     list-style: none;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
+    .contakts__items-header {
+        display: none;
+
+    }
+
+}
+
+@media screen and (min-width:768px) {
     .contakts__items-header{
         flex-direction: column;
 

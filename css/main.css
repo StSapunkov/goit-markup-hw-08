@@ -94,9 +94,6 @@ img {
   padding-bottom: 48px;
   padding-left: 40px;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
 }
 
 .page-header-container {
@@ -107,7 +104,6 @@ img {
 
 @media screen and (min-width: 480px) {
   .page-header-container {
-    width: 450px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -146,6 +142,8 @@ img {
 .mobile-list-kontainer {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .backdrop {
@@ -424,7 +422,6 @@ img {
 .mobile-list {
   display: flex;
   flex-direction: column;
-  margin-top: 306px;
 }
 
 .mobile-list__menu-items {
@@ -708,7 +705,7 @@ img {
   list-style: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .items-header {
     display: none;
   }
@@ -720,7 +717,12 @@ img {
   list-style: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+  .contakts__items-header {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
   .contakts__items-header {
     flex-direction: column;
   }
@@ -900,12 +902,12 @@ img {
   background: #F5F4FA;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 767px) {
   .box-icons {
     width: 450px;
   }
 }
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 1199px) {
   .box-icons {
     width: 354px;
   }
@@ -1109,8 +1111,10 @@ img {
 }
 
 .companies {
-  color: #AFB1B8;
+  width: 170px;
+  height: 92px;
   margin-top: 16px;
+  color: #AFB1B8;
 }
 
 .footer-logo-social__logo-footer {
@@ -1346,11 +1350,6 @@ img {
     justify-content: center;
   }
 }
-@media screen and (max-width: 767px) {
-  .buttons-container__items-buttons {
-    width: 326px;
-  }
-}
 .items-portfolio {
   display: flex;
   flex-wrap: wrap;
@@ -1380,6 +1379,12 @@ img {
 
 .items-portfolio__cards:hover .overlay {
   transform: translate(0, 0);
+}
+
+.items-portfolio__link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
 }
 
 .items-portfolio__box-cards {
