@@ -1,6 +1,4 @@
 .footer-logo-social__logo-footer {
-    // display: flex;
-
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -135,28 +133,22 @@
 @media screen and(min-width:1200px) {
     .footer-email-form{
         display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        margin-left: 93px;
+                
     }
     
 }
 
-// .footer-email-form__form-email {
-//     // display: flex;
-//     // flex-direction: column;
-//     // align-items: center;
+.footer-email-form__form-email {
+    display: flex;
 
-// }
 
-// @media screen and(min-width:1200px){
-//     .footer-email-form__form-email{
-//         flex-direction: row;
-//         align-items: flex-start;
-
-//     }
-    
-// }
+}
 
 .footer-email-form__form-email-dscr {
-    
     height: 50px;
     margin-bottom: 20px;
 }
@@ -186,6 +178,13 @@
     background-color: #2F303A;
     color: #FFFFFF;
 
+}
+
+@media screen and (min-width:1200px) {
+    .footer-email-form__form-email-input{
+        width: 358px;
+    }
+    
 }
 
 .footer-email-form__form-email-button {
@@ -222,6 +221,9 @@
 @media screen and(min-width:1200PX) {
     .footer-email-form__form-email-button{
         margin-left: 12px;
+        margin-top: 0;
+
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
     }
     
 }

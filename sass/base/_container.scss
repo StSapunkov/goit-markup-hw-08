@@ -48,8 +48,9 @@
 @media screen and (min-width:1200px) {
     .container {
         display: flex;
-        flex-direction: column;
-        align-content: center;
+        // flex-direction: column;
+        // align-content: center;
+        align-items: baseline;
 
         padding-top: 94px;
         padding-bottom: 94px;
