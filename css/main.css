@@ -1246,7 +1246,7 @@ img {
   }
 }
 .footer-email-form__form-email {
-  display: flex;
+  text-align: center;
 }
 
 .footer-email-form__form-email-dscr {
