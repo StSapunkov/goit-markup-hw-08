@@ -133,7 +133,9 @@ img {
 @media screen and (min-width: 1200px) {
   .container {
     display: flex;
-    align-items: baseline;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -178,6 +180,7 @@ img {
 @media screen and (min-width: 768px) {
   .modal {
     max-width: 450px;
+    height: 609px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -802,7 +805,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .main-container {
-    width: 1200px;
+    width: 1600px;
     height: 600px;
     background-size: cover;
   }
@@ -844,6 +847,17 @@ img {
   text-align: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .title {
+    width: 696px;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
 .button {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -871,7 +885,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: auto;
   list-style: none;
 }
 
