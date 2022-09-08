@@ -805,7 +805,6 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .main-container {
-    width: 1600px;
     height: 600px;
     background-size: cover;
   }
