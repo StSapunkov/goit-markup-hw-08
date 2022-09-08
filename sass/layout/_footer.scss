@@ -1,3 +1,38 @@
+.footer-container{
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (min-width:1200px) {
+    .footer-container {
+        display: flex;
+        flex-wrap: nowrap;
+        text-align: inherit;
+
+    }
+
+}
+
+.footer-logo-social{
+    flex-grow: 1;
+    margin-bottom: 60px;
+}
+
+@media screen and(min-width:1200px) {
+    .footer-logo-social{
+        margin-bottom: 0;
+    }
+    
+}
+
 .footer-logo-social__logo-footer {
     font-family: 'Raleway';
     font-weight: 700;
@@ -34,12 +69,6 @@
 
 }
 
-.footer-logo-social {
-
-    margin-bottom: 60px;
-    text-align: center;
-}
-
 .footer-logo-social__content {
     font-style: normal;
     font-weight: 400;
@@ -72,7 +101,10 @@
 @media screen and (min-width:768px) {
     .social-footer{
         margin-left: 165px;
+        margin-bottom: 0px;
+        margin-right: 89px;
     }
+    
     
 }
 
@@ -84,7 +116,7 @@
 }
 
 .social-footer__motivation {
-    text-align: center;
+
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
@@ -130,20 +162,22 @@
         
 }
 
-@media screen and(min-width:1200px) {
+@media screen and(min-width:768px) {
     .footer-email-form{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
 
-        margin-left: 93px;
                 
     }
     
 }
+@media screen and(min-width:1200px) {
+    .footer-email-form {
+        display: block;
+        text-align: inherit;
+        margin-left: 0;
 
-.footer-email-form__form-email {
-    text-align: center;
+    }
 
 }
 
