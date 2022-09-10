@@ -41,6 +41,13 @@
     margin-left: 15px;
 }
 
+@media screen and(min-width:768px) {
+    .logo{
+        margin-left: 0;
+    }
+    
+}
+
 .logo-lab{
     font-family: 'Raleway';
     font-weight: 700;
@@ -235,7 +242,7 @@
     display: flex;
     align-items: center;
 
-    margin-left: 88px;
+    margin-left: 87px;
     list-style: none;
 
 }
@@ -335,6 +342,21 @@
 
 }
 
-.menu-items:not(:last-child) {
+.menu-items{
     margin-right: 50px;
+}
+
+.menu-items:last-child {
+    margin-right: 0px;
+}
+
+.menu-items-kontakt{
+    margin-right: 30px;
+}
+
+@media screen and(min-width:768px) {
+    .menu-items-kontakt{
+        margin-right: 0;
+    }
+    
 }

@@ -33,6 +33,8 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 button {
@@ -46,12 +48,6 @@ body {
 
 .staff-container {
   background-color: #F5F4FA;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .section {
@@ -556,6 +552,11 @@ img {
   margin-left: 15px;
 }
 
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-left: 0;
+  }
+}
 .logo-lab {
   font-family: "Raleway";
   font-weight: 700;
@@ -712,7 +713,7 @@ img {
 .items-header {
   display: flex;
   align-items: center;
-  margin-left: 88px;
+  margin-left: 87px;
   list-style: none;
 }
 
@@ -787,10 +788,23 @@ img {
   height: 70px;
 }
 
-.menu-items:not(:last-child) {
+.menu-items {
   margin-right: 50px;
 }
 
+.menu-items:last-child {
+  margin-right: 0px;
+}
+
+.menu-items-kontakt {
+  margin-right: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-items-kontakt {
+    margin-right: 0;
+  }
+}
 .main-container {
   width: 100%;
   height: 100%;
