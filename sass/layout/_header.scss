@@ -117,7 +117,7 @@
     border-radius: 2px;
     width: 100%;
     height: 4px;
-    background-color: var(--accent-color)
+    background-color: var(--accent-color);
 }
 
 .link-portfolio {
@@ -143,6 +143,10 @@
     }
 }
 
+.current {
+    color: var(--accent-color);
+}
+
 .link-portfolio.current::after {
     position: absolute;
     content: "";
@@ -151,7 +155,8 @@
     border-radius: 2px;
     width: 100%;
     height: 4px;
-    background-color: var(--accent-color)
+    background-color: var(--accent-color);
+
 }
 
 .link-item {
@@ -180,7 +185,7 @@
 
 @media screen and(min-width:1200px) {
     .link-item{
-        margin-left: 30px;
+        margin-bottom: 0;
     }
     
 }
@@ -308,11 +313,6 @@
     margin-right: 10px;
 
 }
-
-// .list-item {
-//     width: 270px;
-//     margin-left: 30px;
-// }
 
 .list-item:first-child {
     margin-left: 0;

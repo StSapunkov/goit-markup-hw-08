@@ -28,6 +28,27 @@
     border-radius: 0px 0px 4px 4px;
 }
 
+@media screen and(min-width:480px) {
+    .staff-border-box{
+        width: 450px;
+    }
+    
+}
+
+@media screen and(min-width:768px) {
+    .staff-border-box {
+        width: 354px;
+    }
+
+}
+
+@media screen and(min-width:1200px) {
+    .staff-border-box {
+        width: 270px;
+    }
+
+}
+
 .staff-box {
     padding-top: 30px;
     padding-bottom: 30px;

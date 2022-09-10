@@ -17,8 +17,8 @@
         rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/main.min.css">
-    </head>
-<body>
+  </head>
+  <body>
         <!-- шапка header-->
         <header class="page-header"> 
           <div class="page-header-container">
@@ -47,7 +47,7 @@
             <div class="contakts">
               <ul class="contakts__items-header">
               
-                <li>
+                <li class="menu-items">
                   <a href="mailto:info@devstudio.com" class="link-item" lang="en">
                     <svg class="link-icon-envelop">
                       <use href="./images/symbol-defs.svg#icon-envelopehover">
@@ -57,7 +57,7 @@
                   </a> 
                    
                 </li>
-                <li>
+                <li class="menu-items">
                   <a href="tel:+380961111111" class="link-item">
                     <svg class="link-icon-phone">
                       <use href="./images/symbol-defs.svg#icon-smartphone">
@@ -82,7 +82,7 @@
               <div class="mobile-list-kontainer">
                 <ul class="mobile-list">
                   <li class="mobile-list__menu-items">
-                    <a href="./index.html" class="mobile-list__studio">Студія</a>
+                    <a href="./index.html" class="mobile-list__studio current">Студія</a>
                   </li>
                   <li class="mobile-list__menu-items">
                     <a href="./portfolio.html" class="mobile-list__portfolio">Портфоліо</a>
@@ -186,7 +186,11 @@
            <ul class="items-work">
               <li class="work-list">
                 <div class="work-list-box">
-                  <img src="./images/box1.jpg" alt="робота за ноутбуком">
+                  <picture>
+                    <source srcset="./images/box1.jpg 1x, ./images/box1@2x.jpg 2x" 
+                    media="(min-width:1200px)"/>
+                    <img src="./images/box1.jpg" alt="робота за ноутбуком">
+                  </picture>
                   <div class="thumb">
                     <p class="work-list-diskr">Десктопні додатки</p>
 
@@ -198,20 +202,26 @@
              
              <li class="work-list">
                <div class="work-list-box">
-                 <img src="./images/box2.jpg" alt="робота за смартфоном">
+                <picture>
+                  <source srcset="./images/box2.jpg 1x, ./images/box2@2x.jpg 2x" 
+                  media="(min-width:1200px)"/>
+                  <img src="./images/box2.jpg" alt="робота за смартфоном">
+                </picture>
                   <div class="thumb">
-              
-                   <p class="work-list-diskr">Мобільні додатки</p>
+                    <p class="work-list-diskr">Мобільні додатки</p>
                   </div>
                 </div>
               
              </li>
              <li class="work-list">
                 <div class="work-list-box">
+                  <picture>
+                    <source srcset="./images/box3.jpg 1x, ./images/box3@2x.jpg 2x" 
+                    media="(min-width:1200px)"/>
                    <img src="./images/box3.jpg" alt="робота за планшетом">
+                   </picture>
                     <div class="thumb">
-              
-                      <p class="work-list-diskr">Дизайнерські рішення</p>
+                       <p class="work-list-diskr">Дизайнерські рішення</p>
                     </div>
                  </div>
 
@@ -239,7 +249,7 @@
                     <source
                     srcset="./images/mobile/demianenko-mobile.jpg 1x, ./images/mobile/demianenko-mobile@2x.jpg 2x"
                     media="(min-width:480px)"/>
-                    <img src="./images/igordemyanenko.jpg" alt="Игорь Демьяненко" width="270" height="260">
+                    <img src="./images/igordemyanenko.jpg" alt="Игорь Демьяненко">
                   </picture>
                  <div class="staff-box">
                    <h3 class="staff-name">Игорь Демьяненко</h3>
@@ -285,7 +295,7 @@
                   media="(min-width:768px)"/>
                   <source srcset="./images/mobile/repina-mobile.jpg 1x, ./images/mobile/repina-mobile@2x.jpg 2x"
                   media="(min-width:468px)"/>
-                  <img src="./images/olgarepina.jpg" alt="Ольга Репина" width="270" height="260">
+                  <img src="./images/olgarepina.jpg" alt="Ольга Репина">
                 </picture>
                 <div class="staff-box">
                  <h3 class="staff-name">Ольга Репина</h3>
@@ -331,7 +341,7 @@
                     media="(min-width:768px)" />
                   <source srcset="./images/mobile/tarasov-mobile.jpg 1x, ./images/mobile/tarasov-mobile@2x.jpg 2x"
                     media="(min-width:468px)" />
-                    <img src="./images/nikolaitarasov.jpg" alt="Николай Тарасов" width="270" height="260">
+                    <img src="./images/nikolaitarasov.jpg" alt="Николай Тарасов">
                 </picture>          
                 <div class="staff-box">
                  <h3 class="staff-name">Николай Тарасов</h3>
@@ -377,7 +387,7 @@
                       media="(min-width:768px)" />
                     <source srcset="./images/mobile/ermakov-mobile.jpg 1x, ./images/mobile/ermakov-mobile@2x.jpg 2x"
                       media="(min-width:468px)" />
-                      <img src="./images/mikhailermakov.jpg" alt="Михаил Ермаков" width="270" height="260">
+                      <img src="./images/mikhailermakov.jpg" alt="Михаил Ермаков">
                   </picture>
                   <div class="staff-box">
                    <h3 class="staff-name">Михаил Ермаков</h3>
@@ -418,7 +428,7 @@
           </div>
 
         </section>
-
+                          
         <!-- постоянные клиенты regular customers-->
         <section class="section">
           <div class="container">
@@ -426,42 +436,42 @@
              <ul class="items-company">
 
                <li class="list-company">
-                 <a href class="client-link">
+                 <a href="#" class="client-link">
                     <svg class="companies">
                       <use href="./images/symbol-defs.svg#icon-Logo-ya-co" wight="106" height="60"></use>
                    </svg>
                  </a>
                </li>
                <li class="list-company">
-                  <a href class="client-link">
+                  <a href="#" class="client-link">
                     <svg class="companies">
-                     <use href="./images/symbol-defs.svg#icon-Logo-company" wight="106" height="60"></use>
+                     <use href="./images/symbol-defs.svg#icon-Logo-company" wight="106" height="60" ></use>
                     </svg>
                   </a>
                </li>
                <li class="list-company">
-                  <a href class="client-link">
+                  <a href="#" class="client-link">
                     <svg class="companies">
                      <use href="./images/symbol-defs.svg#icon-Logo" wight="106" height="60"></use>
                    </svg>
                   </a>
                </li>
                <li class="list-company">
-                  <a href class="client-link">
+                  <a href="#" class="client-link">
                     <svg class="companies">
                      <use href="./images/symbol-defs.svg#icon-foster" wight="106" height="60"></use>
                     </svg>
                   </a>
                </li>
                <li class="list-company">
-                  <a href class="client-link">
+                  <a href="#" class="client-link">
                     <svg class="companies">
                      <use href="./images/symbol-defs.svg#icon-brand" wight="106" height="60"></use>
                     </svg>
                   </a>
                </li>
                <li class="list-company">
-                  <a href class="client-link">
+                  <a href="#" class="client-link">
                     <svg class="companies">
                      <use href="./images/symbol-defs.svg#icon-tagline" wight="106" height="60"></use>
                     </svg>
@@ -486,7 +496,11 @@
     
           <address class="footer-logo-social__content">
             <ul class="footer-logo-social__items-footer">
-              <li class="footer-logo-social__link-footer">м. Київ, пр-т Лесі Українки, 26</li>
+              
+               <li class="footer-logo-social__link-footer">
+                  <a href="#" class="footer-logo-social__adress">м. Київ, пр-т Лесі Українки, 26</a>
+                </li>
+              
     
               <li class="footer-logo-social__link-footer">
                 <a href="mailto:info@devstudio.com" lang="en"
@@ -505,28 +519,28 @@
           <p class="social-footer__motivation">ПРИЄДНУЙТЕСЬ</p>
           <ul class="social-footer__social-footer-items">
             <li class="social-footer__social-list">
-              <a href class="social-footer__social-items-footer">
+              <a href="#" class="social-footer__social-items-footer">
                 <svg width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-footer__social-list">
-              <a href class="social-footer__social-items-footer">
+              <a href="#" class="social-footer__social-items-footer">
                 <svg width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="social-footer__social-list">
-              <a href class="social-footer__social-items-footer">
+              <a href="#" class="social-footer__social-items-footer">
                 <svg width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social-footer__social-list">
-              <a href class="social-footer__social-items-footer">
+              <a href="#" class="social-footer__social-items-footer">
                 <svg width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                 </svg>
@@ -539,8 +553,7 @@
     
           <form class="footer-email-form__form-email" autocomplete="off">
             <label class="footer-email-form__form-email-dscr">
-              <input type="email" placeholder="E-mail" name="user_email"
-                class="footer-email-form__form-email-input"></input>
+              <input type="email" placeholder="E-mail" name="user_email" class="footer-email-form__form-email-input"/>
             </label>
     
             <button type="submit" class="footer-email-form__form-email-button"><span
@@ -572,7 +585,7 @@
           <label class="modal-form-field">
             <span class="modal-descr"> Ім’я </span>
             <span class="modal-wrapper">
-              <input type="text" name="user_name" required pattern="[a-zA-Zа-яА-Я]+" minlength="2" class="modal-form-input" />
+              <input type="text" name="user_name" required pattern="[a-zA-Zа-яА-Я]+" minlength="2" class="modal-form-input"/>
                 <svg width="18" height="18" class="modal-form-icon">
                   <use href="./images/symbol-defs.svg#icon-man"></use>
                 </svg>
@@ -603,7 +616,7 @@
           </label>
           <input id="user-policy" type="checkbox" name="user_policy" class="modal-form-check visually-hidden"/>
           <label for="user-policy" class="modal-form-check-desc">
-            Погоджуюся з розсилкою та приймаю&nbsp;<a href="" class="modal-link">Умови договору</a>
+            Погоджуюся з розсилкою та приймаю&nbsp;<a href="#" class="modal-link">Умови договору</a>
           </label>
           <button type="submit" class="modal-form-submit">Відправити</button>
         </form>
@@ -612,6 +625,9 @@
     
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-modal.js"></script>
-</body>
+ </body>
 
-</html>
+ </html>
+
+
+

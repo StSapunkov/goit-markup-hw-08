@@ -86,6 +86,28 @@
 
 }
 
+.footer-logo-social__adress{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style: none;
+
+    &:hover {
+        color: var(--accent-color);
+    
+        transition: var(--transition-anime);
+    }
+
+}
+
+
+
 .footer-logo-social__link-footer {
     margin-bottom: 9px;
     text-decoration: none;
@@ -223,7 +245,7 @@
 .footer-email-form__form-email-button {
   
     min-width: 200px;
-    height: 50px;
+    
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 29px;
@@ -251,8 +273,9 @@
     }
 }
 
-@media screen and(min-width:1200PX) {
+@media screen and(min-width:1200px) {
     .footer-email-form__form-email-button{
+        
         margin-left: 12px;
         margin-top: 0;
 

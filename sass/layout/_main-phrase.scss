@@ -1,6 +1,7 @@
 .main-container {
     width: 100%;
     height: 100%;
+    padding: 118px 0;
 
     display: flex;
     flex-direction: column;
@@ -27,7 +28,7 @@
 
 @media screen and (min-width:1200px) {
     .main-container {
-    
+        padding: 200px 0;
         height: 600px;
         background-size: cover;
     }
@@ -39,7 +40,11 @@
 (min-resolution: 192dpi) and (max-width: 767px),
 (min-resolution: 2dppx) and (max-width: 767px) {
     .main-container {
-        background-image: url('../images/mobile/Header-mobile@2x.jpg');
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url('../images/mobile/Header-mobile@2x.jpg');
+
+        background-size: center;
+        background-repeat: no-repeat;
     }
 }
 
@@ -47,6 +52,9 @@
     .main-container{
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
             url("../images/tablet/Header-tablet.jpg");
+
+        background-size: center;
+        background-repeat: no-repeat;
 
     }
     
@@ -56,7 +64,11 @@
 (min-resolution: 192dpi) and (min-width: 768px),
 (min-resolution: 2dppx) and (min-width: 768px) {
     .main-container {
-        background-image: url('../images/tablet/Header-tablet@2x.jpg');
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url('../images/tablet/Header-tablet@2x.jpg');
+
+        background-size: center;
+        background-repeat: no-repeat;
     }
 }
 
@@ -64,6 +76,9 @@
     .main-container {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
             url("../images/deskpot/mainimg.jpg");
+
+        background-size: center;
+        background-repeat: no-repeat;
 
     }
 
@@ -73,7 +88,11 @@
 (min-resolution: 192dpi) and (min-width: 1200px),
 (min-resolution: 2dppx) and (min-width: 1200px) {
     .main-container {
-        background-image: url('../images/deskpot/mainimg@2x.jpg');
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url('../images/deskpot/mainimg@2x.jpg');
+
+        background-size: center;
+        background-repeat: no-repeat;
     }
 }
 
