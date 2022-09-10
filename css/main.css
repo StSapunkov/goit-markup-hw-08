@@ -815,7 +815,8 @@ body {
   align-items: center;
   text-align: center;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/mobile/Header-mobile.jpg");
-  background-size: center;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-color: #C4C4C4;
 }
