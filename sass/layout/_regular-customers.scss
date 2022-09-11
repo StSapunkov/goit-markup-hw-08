@@ -46,6 +46,8 @@
 
     fill: #AFB1B8;
 
+    transition: var(--transition-anime);
+
     &:hover,
     &:focus{
         fill: var(--accent-color);
