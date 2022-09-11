@@ -703,6 +703,7 @@ body {
 }
 .link-icon-envelop:hover, .link-icon-envelop:focus {
   fill: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .link-icon-phone {
@@ -928,6 +929,10 @@ body {
   background-color: #188CE8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+
+.hero {
+  padding: 0 204px;
 }
 
 .items {
