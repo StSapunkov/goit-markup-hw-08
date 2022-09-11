@@ -697,8 +697,6 @@ body {
   margin-right: 10px;
   width: 16px;
   height: 12px;
-  fill: var(--text-color);
-  color: var(--text-color);
   transition: fill var(--transition-anime);
 }
 .link-icon-envelop:hover, .link-icon-envelop:focus {
@@ -710,7 +708,6 @@ body {
   margin-right: 10px;
   width: 10px;
   height: 16px;
-  fill: var(--text-color);
   transition: fill var(--transition-anime);
 }
 .link-icon-phone:hover, .link-icon-phone:focus {
@@ -820,6 +817,7 @@ body {
 @media screen and (min-width: 768px) {
   .menu-items-kontakt {
     margin-right: 0;
+    fill: var(--text-color);
   }
 }
 .main-container {
@@ -931,10 +929,11 @@ body {
   border-radius: 4px;
 }
 
-.hero {
-  padding: 0 204px;
+@media screen and (min-width: 768px) {
+  .hero {
+    padding: 0 204px;
+  }
 }
-
 .items {
   display: flex;
   flex-wrap: wrap;
@@ -1238,6 +1237,7 @@ body {
   .footer-container {
     display: flex;
     flex-wrap: nowrap;
+    justify-content: space-between;
     text-align: inherit;
   }
 }
@@ -1388,7 +1388,7 @@ body {
   .footer-email-form {
     display: block;
     text-align: inherit;
-    margin-left: 0;
+    margin-left: 93px;
   }
 }
 .footer-email-form__form-email-dscr {
@@ -1506,6 +1506,7 @@ body {
   gap: 8px;
   margin-bottom: 30px;
   list-style: none;
+  row-gap: 15px;
 }
 
 @media screen and (min-width: 768px) {

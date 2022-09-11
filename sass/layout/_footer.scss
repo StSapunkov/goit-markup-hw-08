@@ -15,6 +15,7 @@
     .footer-container {
         display: flex;
         flex-wrap: nowrap;
+        justify-content: space-between;
         text-align: inherit;
 
     }
@@ -203,7 +204,7 @@
     .footer-email-form {
         display: block;
         text-align: inherit;
-        margin-left: 0;
+        margin-left: 93px;
 
     }
 
