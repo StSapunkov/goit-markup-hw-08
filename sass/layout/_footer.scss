@@ -22,7 +22,9 @@
 }
 
 .footer-logo-social{
-    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+
     margin-bottom: 60px;
 }
 
@@ -122,9 +124,13 @@
 
 @media screen and (min-width:768px) {
     .social-footer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
         margin-left: 165px;
         margin-bottom: 0px;
-        margin-right: 89px;
+        
     }
     
     

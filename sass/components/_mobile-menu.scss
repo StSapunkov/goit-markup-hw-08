@@ -117,16 +117,26 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.22;
     letter-spacing: 0.02em;
     color: #2196F3;
 
-    padding-right: 10px;
     margin-right: 10px;
-    border-right: 1px solid rgba(33, 33, 33, 0.2);
-    transform: rotate(90deg);
     
+}
+
+.mobile-list-socials__link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+        
+    text-decoration: none;
+    list-style: none;
 }
 
 .mobile-list-socials{
@@ -135,8 +145,13 @@
     margin-bottom: 48px;
 }
 
+.line{
+    color: rgba(33, 33, 33, 0.2);
+}
+
 .mobile-list-socials__mobile-list{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 64px;
 }
 

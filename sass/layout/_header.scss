@@ -202,14 +202,16 @@
     margin-right: 10px;
     width: 16px;
     height: 12px;
+    fill: var(--text-color);
     color: var(--text-color);
-
+    
     transition: fill var(--transition-anime);
 
     &:hover,
     &:focus {
     
-         fill: var(--accent-color);
+        fill: var(--accent-color);
+        
     }
 }
 
@@ -217,7 +219,7 @@
     margin-right: 10px;
     width: 10px;
     height: 16px;
-    color: var(--text-color);
+    fill: var(--text-color);
 
     transition: fill var(--transition-anime);
 
