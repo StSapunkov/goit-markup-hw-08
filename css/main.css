@@ -1221,6 +1221,9 @@ body {
   height: 60px;
   fill: #AFB1B8;
 }
+.companies:hover, .companies:focus {
+  fill: var(--accent-color);
+}
 
 .footer-container {
   text-align: center;
