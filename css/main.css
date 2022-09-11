@@ -1212,10 +1212,6 @@ body {
     width: 170px;
   }
 }
-.client-link {
-  display: flex;
-}
-
 .companies {
   width: 106px;
   height: 60px;
